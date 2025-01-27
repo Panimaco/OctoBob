@@ -2073,7 +2073,7 @@ GameObject:
   - component: {fileID: 2105503463751647734}
   - component: {fileID: 7614359839281530316}
   m_Layer: 5
-  m_Name: MusicVolume
+  m_Name: SFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2239,7 +2239,7 @@ GameObject:
   - component: {fileID: 3565562973652087551}
   - component: {fileID: 4979562317800728117}
   m_Layer: 5
-  m_Name: SFXVolume
+  m_Name: Music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2382,15 +2382,15 @@ RectTransform:
   m_GameObject: {fileID: 5498985192175694968}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.8751, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6646089271366596904}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 0}
+  m_AnchoredPosition: {x: 2.4, y: 25.7}
+  m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2282715053720244870
 CanvasRenderer:
@@ -2719,8 +2719,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioMixer: {fileID: 24100000, guid: b833408e8495ebf4ba542226a44616cd, type: 2}
   _masterVolumeSlider: {fileID: 7705248555705488010}
-  _musicVolumeSlider: {fileID: 7614359839281530316}
-  _sfxVolumeSlider: {fileID: 4979562317800728117}
+  _musicVolumeSlider: {fileID: 4979562317800728117}
+  _sfxVolumeSlider: {fileID: 7614359839281530316}
 --- !u!1 &7252482970303313750
 GameObject:
   m_ObjectHideFlags: 0
