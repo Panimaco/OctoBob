@@ -21,4 +21,5 @@ EditorBuildSettings:
     path: Assets/Scenes/EndCutScene.unity
     guid: a7934f59ed72e554ba4b07f3e71bbe9c
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 35c06a8a89d07db4f88837972ffbc3a1, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: 4f4b5cb24bd67c640affd70382cbd06c, type: 2}
